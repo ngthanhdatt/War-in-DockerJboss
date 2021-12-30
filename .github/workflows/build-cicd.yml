@@ -47,4 +47,4 @@ jobs:
         file: ./Dockerfile
         builder: ${{ steps.buildx.outputs.name }}
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/loginappjboss:${{ steps.date.output.date }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/loginappjboss:${{ steps.date.outputs.date }}
