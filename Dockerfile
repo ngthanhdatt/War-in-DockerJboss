@@ -1,4 +1,4 @@
-FROM quay.io/wildfly/wildfly
+FROM ngthanhdat/centosjboss:latest
 
 RUN /opt/jboss/wildfly/bin/add-user.sh wildfly 1 --silent
 
