@@ -1,6 +1,6 @@
 FROM ngthanhdat/centosjboss:latest
 
-RUN /opt/jboss/wildfly/bin/add-user.sh wildfly 1 --silent
+# RUN /opt/jboss/wildfly/bin/add-user.sh wildfly 1 --silent
 
 COPY target/LoginWebApp-1.war /opt/jboss/wildfly/standalone/deployments/
 
